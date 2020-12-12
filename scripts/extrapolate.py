@@ -1,6 +1,11 @@
+import sys
+sys.path.append('..')
 from scripts import *
 from scripts.model_utils import best_mod_expander_for_external, get_model_params, handle_model_index, load_predict
 from scripts.structure_handler import calc_desc_fp, currate_smiles_columns
+import warnings
+warnings.filterwarnings("ignore")
+
 
 if __name__ == "__main__":
 
